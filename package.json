@@ -1,6 +1,6 @@
 {
   "name": "filmaffinity-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An awesome module that retrieves filmaffinity data trought his id or title fragment",
   "main": "index.js",
   "scripts": {
