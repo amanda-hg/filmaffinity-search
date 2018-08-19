@@ -33,9 +33,9 @@ Input:
 ```js
 const FilmaffinitySearch = require('filmaffinity-search');
 
-const getId = FilmaffinitySearch.getId;
-getId('lo que el viento se llevo')
-    .then((films) => films.forEach(( film ) => console.log(JSON.stringify(film, null, 4));
+const getIds = FilmaffinitySearch.getIds;
+getIds('lo que el viento se llevo')
+    .then((films) => films.forEach(( film ) => console.log(JSON.stringify(film, null, 4))));
 
 ```
 Output:
