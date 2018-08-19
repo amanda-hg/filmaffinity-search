@@ -1,6 +1,6 @@
 {
   "name": "filmaffinity-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An awesome module that retrieves filmaffinity data trought his id or title fragment",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/amanda-hg/filmaffinity-search#readme",
   "dependencies": {
+    "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }
 }
